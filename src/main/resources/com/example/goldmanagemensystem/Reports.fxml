@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="center" styleClass="reports-outer" spacing="20" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.goldmanagemensystem.ReportsController" stylesheets="@Reports.css">
+   <children>
+      <HBox spacing="100" alignment="center">
+         <children>
+            <DatePicker styleClass=".date-picker-popup" fx:id="datePicker1" promptText="From" />
+            <DatePicker fx:id="datePicker2" promptText="To" />
+
+         </children>
+      </HBox>
+      <Button  mnemonicParsing="false" text="Generate reports" onAction="#onClickGenerateButton" />
+      <Button styleClass="back-button" mnemonicParsing="false" onAction="#onClickBackButton" text="Back to Main Page"  />
+   </children>
+</VBox>

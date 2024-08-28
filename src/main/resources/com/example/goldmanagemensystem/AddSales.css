@@ -1,0 +1,48 @@
+.root{
+    -fx-background-color: #001831;
+}
+
+#addSales-main{
+    -fx-background-color: #001831;
+    -fx-alignment: center;
+    -fx-border-color: #d4af37;
+    -fx-border-width: 5px;
+    -fx-font-family: Verdana, sans-serif;
+}
+
+.label {
+    -fx-font-family: Verdana, sans-serif;
+    -fx-font-size: 20px;
+    -fx-min-width: 400px;
+    -fx-max-width: 400px;
+    -fx-border-color: #d4af37;
+    -fx-text-fill: white;
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+    -fx-padding: 10px;
+}
+
+.text-field {
+    -fx-font-family: Verdana, sans-serif;
+    -fx-text-fill: #d4af37;
+    -fx-font-size: 20px;
+    -fx-padding: 5px;
+    -fx-border-color: #d4af37;
+    -fx-min-width: 400px;
+    -fx-max-width: 400px;
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+}
+
+.addSales-button{
+    -fx-font-family:Verdana, sans-serif;
+    -fx-text-fill: white;
+    -fx-border-color: #d4af37;
+    -fx-font-size: 20px;
+    -fx-min-height: 60px;
+    -fx-max-height: 60px;
+    -fx-min-width: 400px;
+    -fx-max-width: 400px;
+    -fx-background-color: #001831;
+-fx-cursor: hand;
+}

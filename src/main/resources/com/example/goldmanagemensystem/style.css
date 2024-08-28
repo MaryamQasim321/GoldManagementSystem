@@ -1,0 +1,110 @@
+
+.root{
+/*!*-fx-background-image: url("img.png");*!*/
+
+/*!*    -fx-background-size: cover; !* Adjust to your needs *!*!*/
+/*!*    -fx-background-position: center center;*!*/
+/*    !*-fx-background-size: 1000 300;*!*/
+/*    -fx-background-repeat: no-repeat;*/
+    /*-fx-background-color: #61481C;*/
+    -fx-padding: 0 0 0 100px;
+    -fx-background-color: #001831;
+    -fx-font-family: cursive;
+    -fx-font-weight: bold;
+    -fx-border-color: #d4af37;
+    -fx-border-width:3px;
+}
+.main-pane {
+    -fx-alignment: center;
+
+}
+
+#main_purchase{
+    -fx-cursor: hand;
+
+    -fx-min-height: 200px;
+    -fx-min-width: 200px;
+    -fx-pref-height: 200px;
+    -fx-pref-width: 200px;
+    -fx-max-height: 200px;
+    -fx-max-width: 200px;
+    -fx-border-color: #d4af37;
+    -fx-border-width:3px;
+    -fx-border-radius: 10px;
+    -fx-margin: 100px 0 0 50px;
+    -fx-font-size: 15px;
+
+
+}
+
+#main_sale{
+
+    -fx-min-height: 200px;
+    -fx-min-width: 200px;
+    -fx-pref-height: 200px;
+    -fx-pref-width: 200px;
+    -fx-max-height: 200px;
+    -fx-max-width: 200px;
+
+    -fx-border-color: #d4af37;
+    -fx-border-width:3px;
+
+    -fx-border-radius: 10px; /* Border radius to round corners */
+    -fx-cursor: hand;
+    /* Margin properties */
+    -fx-margin: 100px;
+    -fx-font-size: 15px;
+
+}
+#main_stock{
+
+    -fx-min-height: 200px;
+    -fx-min-width: 200px;
+    -fx-pref-height: 200px;
+    -fx-pref-width: 200px;
+    -fx-max-height: 200px;
+    -fx-max-width: 200px;
+    -fx-border-color: #d4af37;
+    -fx-border-width:3px;
+    -fx-border-radius:10px;
+    -fx-cursor: hand;
+    -fx-margin: 100px;
+    -fx-font-size: 15px;
+
+}
+
+#main_report{
+    -fx-min-height: 200px;
+    -fx-min-width: 200px;
+    -fx-pref-height: 200px;
+    -fx-pref-width: 200px;
+    -fx-max-height: 200px;
+    -fx-max-width: 200px;
+    -fx-border-color: #d4af37;
+    -fx-border-width:3px;
+    -fx-border-radius: 10px;
+    -fx-margin: 100px;
+    -fx-font-size: 15px;
+    -fx-cursor: hand;
+
+}
+
+
+.button-container .button {
+    -fx-min-height: 200px; /* Minimum height */
+    -fx-min-width: 200px;  /* Minimum width */
+    -fx-pref-height: 200px; /* Preferred height */
+    -fx-pref-width: 200px;  /* Preferred width */
+    -fx-max-height: 200px;  /* Maximum height */
+    -fx-max-width: 200px;
+
+    -fx-border-color: #d4af37;
+    -fx-border-width:3px;
+
+    -fx-border-radius: 10px; /* Border radius to round corners */
+    -fx-margin: 0 20px 20px 20px; /* Margin: top right bottom left */
+
+}
+
+
+

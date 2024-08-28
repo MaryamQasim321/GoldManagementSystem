@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.goldmanagemensystem.MainController">
+    <top>
+        <HBox alignment="CENTER" spacing="150" styleClass="image-box">
+            <ImageView fitHeight="400" fitWidth="400" styleClass="image">
+                <image>
+                    <Image url="@img.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="400" fitWidth="400" styleClass="image">
+                <image>
+                    <Image url="@img_1.png" />
+                </image>
+            </ImageView>
+
+        </HBox>
+    </top>
+
+    <bottom>
+<Pane styleClass="main-pane">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <HBox spacing="100" styleClass="button-container">
+
+        <Button id="main_purchase" layoutX="50" mnemonicParsing="false" onAction="#onClickPurchaseButton" text="Purchase">
+            <graphic>
+                <ImageView fitHeight="70" fitWidth="70">
+                    <image>
+                        <Image url="@purchase.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button id="main_sale" mnemonicParsing="false" onAction="#onClickSalesButton" text="Sale">
+            <graphic>
+                <ImageView fitHeight="70" fitWidth="70">
+                    <image>
+                        <Image url="@sale.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button id="main_stock" mnemonicParsing="false" onAction="#onClickStockButton" text="View stock">
+            <graphic>
+                <ImageView fitHeight="70" fitWidth="70">
+                    <image>
+                        <Image url="@stock.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button id="main_report" mnemonicParsing="false" onAction="#onClickReportsButton" text="Reports">
+            <graphic>
+                <ImageView fitHeight="70" fitWidth="70">
+                    <image>
+                        <Image url="@report.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+    </HBox>
+
+</Pane>
+    </bottom>
+</BorderPane>

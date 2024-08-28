@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox styleClass="vBox" prefHeight="400.0" prefWidth="600.0" spacing="10.0" alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.2-ea" stylesheets="@stock.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.goldmanagemensystem.Stock">
+   <children>
+      <Label text="Current stock:"/>
+      <Label fx:id="stockLabel" text="." />
+      <Button mnemonicParsing="false" text="Back to main screen" onAction="#onClickBackButton"/>
+   </children>
+</VBox>

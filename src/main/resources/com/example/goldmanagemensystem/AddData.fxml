@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="addData-main" stylesheets="@AddData.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.goldmanagemensystem.AddDataController">
+   <children>
+      <VBox alignment="CENTER" spacing="10.0" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label text="Gold Amount:" styleClass="label" />
+            <TextField fx:id="goldField" promptText="Enter Gold Amount" styleClass="text-field" />
+
+            <Label text="Labour:" styleClass="label" />
+            <TextField fx:id="labourField" promptText="Enter Labour" styleClass="text-field" />
+
+            <Label text="Price of Gold:" styleClass="label" />
+            <TextField fx:id="priceField" promptText="Enter Price of Gold" styleClass="text-field" />
+
+            <Button styleClass="addData-button" mnemonicParsing="false" onAction="#displaySum" text="Calculate Purchase Amount" />
+            <Label fx:id="calculationLabel" text=" " />
+
+            <Button styleClass="addData-button" mnemonicParsing="false" onAction="#onClickBackButton" text="Back to Main Page"  />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

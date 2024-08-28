@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.goldmanagemensystem.ReportsDisplayController" stylesheets="@Reports.css">
+   <children>
+      <TableView   AnchorPane.leftAnchor="50" AnchorPane.rightAnchor="50"
+                   AnchorPane.topAnchor="50" AnchorPane.bottomAnchor="50" styleClass="table-view" fx:id="tableView" layoutX="-6.0" layoutY="39.0" prefHeight="500.0" prefWidth="1000.0">
+        <columns>
+          <TableColumn styleClass="table-cell" fx:id="dateColumn" prefWidth="300.0" text="Date" />
+          <TableColumn styleClass="table-cell" fx:id="purchaseColumn" prefWidth="300.0" text="Purchase" />
+            <TableColumn styleClass="table-cell" fx:id="salesColumn" prefWidth="300.0" text="Sale" />
+            <TableColumn styleClass="table-cell" fx:id="expensesColumn" prefWidth="300.0" text="Expenses" />
+        </columns>
+      </TableView>
+       <Button mnemonicParsing="false" text="Back to main screen" onAction="#onClickBackButton"/>
+
+   </children>
+</VBox>

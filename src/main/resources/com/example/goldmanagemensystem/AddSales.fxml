@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<AnchorPane id="addSales-main" prefHeight="400.0" prefWidth="600.0" stylesheets="@AddSales.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.goldmanagemensystem.AddSalesController">
+   <VBox alignment="CENTER" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+         <Label text="Enter Sales" />
+         <TextField fx:id="saleLabel" prefHeight="25.0" prefWidth="184.0" promptText="Enter today's sales in grams" styleClass="text-field" />
+         <Label text="Enter other expenses" />
+         <TextField fx:id="salaryLabel" promptText="Other expenses" styleClass="text-field" />
+         <Label text="Enter salary expenses" />
+         <TextField fx:id="otherExpenses" promptText="salary expenses" styleClass="text-field" />
+         <Label text="Enter gold price" />
+         <TextField fx:id="goldPriceLabel" promptText="Enter gold price" styleClass="text-field" />
+         <Button mnemonicParsing="false" onAction="#displaySum" styleClass="addSales-button" text="Add to file" />
+         <Label fx:id="calculationLabel" styleClass="label" />
+         <Button mnemonicParsing="false" onAction="#onClickBackButton" styleClass="addSales-button" text="Back to main to page" graphicTextGap="50">
+         </Button>
+      </children>
+   </VBox>
+</AnchorPane>
